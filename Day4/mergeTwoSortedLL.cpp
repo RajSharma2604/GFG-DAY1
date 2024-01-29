@@ -24,5 +24,5 @@
             insertattail(dtail,ptr2);
             ptr2=ptr2->next;
         }
-        return dhead->next;
+        return dhead;
     }
