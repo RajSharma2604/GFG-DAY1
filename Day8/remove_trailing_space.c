@@ -3,7 +3,7 @@ void removespace(char *s, int len)
 {   
     int i=len;
     while(i>=0){
-        if(s[i]==" "){
+        if(s[i]==' '){
             s[i]='\0';
             i--;
         }
