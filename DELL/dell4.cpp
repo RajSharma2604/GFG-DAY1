@@ -2,6 +2,11 @@
 #include<iostream>
 using namespace std;
 #include<bits/stdc++.h>
+int factorial(int n){
+    //recursive code
+    if(n==1)return 1;
+    return n*factorial(n-1);
+}
 int main()
 {   
     cout<<"enter a number :"<<endl;
@@ -15,6 +20,9 @@ int main()
         }
     }
     if(flag==1)cout<<"Not a prime number:";
-    else cout<<"Prime number ,need to calculate factroial for it:"<<endl;
+    else{
+        int ans=factorial(n);
+        cout<<"factorial is:"<<ans;
+    } 
 return 0;
 }
