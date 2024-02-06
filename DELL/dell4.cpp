@@ -1,4 +1,5 @@
-//
+//Write a recursive function to get the 
+//factorial of a given number only if it is prime
 #include<iostream>
 using namespace std;
 #include<bits/stdc++.h>
