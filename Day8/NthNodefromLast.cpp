@@ -1,4 +1,6 @@
-//
+//Two question can be asked
+//getNthfrom last
+//delete Nth from last
 #include<iostream>
 using namespace std;
 #include<bits/stdc++.h>
