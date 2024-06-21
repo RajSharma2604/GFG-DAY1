@@ -6,13 +6,20 @@ int quickpart(int *arr,int low,int high){
     int pivot=arr[low];
     int i=low+1,j=high;
     while(i<j){
-        
+
+
+            //pivot bada to i++
+            // arr[j] bada to j--
+            //otherwise just swap
             while(arr[i]<=pivot && i<=high-1){
                 i++;
             }
+            //pointer i is looking for that element which
+            // is greater than the pivot element
             while(pivot<arr[j] && j>=low+1){
                 j--;
             }
+            //if they didnt cross each other
             if(i<j){
                 swap(arr[i],arr[j]);
             }
